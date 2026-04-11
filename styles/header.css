@@ -8,6 +8,7 @@
   padding-bottom: 12px;
   padding-left: 50px;
   padding-right: 50px;
+  cursor: pointer;
 }
 
 .right-side {
@@ -41,6 +42,7 @@
   padding-right: 15px;
   font-size: 12px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .submit-request-button {
