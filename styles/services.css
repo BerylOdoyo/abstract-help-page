@@ -1,0 +1,41 @@
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-items: center;
+  column-gap: 250px;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.service-info-flexbox {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.service-image {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.service-name {
+  font-size: 14px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.about-service {
+  width: 275px;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+.learn-more {
+  text-decoration: none;
+}

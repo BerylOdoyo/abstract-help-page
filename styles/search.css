@@ -29,6 +29,7 @@
 
 .search-bar::placeholder{
     font-size: 13px;
+    padding-left: 5px;
 }
 
 .search-button{
