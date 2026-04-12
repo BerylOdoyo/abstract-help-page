@@ -1,19 +1,18 @@
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
-  justify-items: center;
-  column-gap: 250px;
-  padding-top: 100px;
-  padding-left: 200px;
-  padding-right: 100px;
-  padding-bottom: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  padding: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .service-info-flexbox {
   display: flex;
   flex-direction: row;
-  width: 200px;
   margin-bottom: 40px;
+  min-width: 0;
 }
 
 .service-image {
@@ -31,7 +30,7 @@
 }
 
 .about-service {
-  width: 275px;
+  width: 100%;
   line-height: 26px;
   font-size: 15px;
 }
